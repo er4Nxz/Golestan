@@ -3,7 +3,9 @@
   height: 180px;
   background-color: #292929;
   display: flex;
-  position: fixed;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 .header__logo {
   margin: 5px auto;

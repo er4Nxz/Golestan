@@ -12,7 +12,14 @@
 }
 :root {
   --fontfamily: iransansweb;
+  --color-light-text:#7c7d7e;
 }
 .wraper {
   width: 100%;
+}
+hr{
+  margin: 40px 5px 20px 5px;
+  height: 2px;
+  border: none;
+  background-color: #dee1e3;
 }
