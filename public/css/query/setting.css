@@ -1,15 +1,18 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 @font-face {
-    font-family: iransansweb;
-    src: url("../font/IRANSansWebFaNum-Medium.eot");
-    src: url("../font/IRANSansWebFaNum-Medium.ttf");
-    src: url("../font/IRANSansWebFaNum-Medium.woff");
-    src: url("../font/IRANSansWebFaNum-Medium.woff2");
+  font-family: iransansweb;
+  src: url("../../font/IRANSansWeb-Light.eot");
+  src: url("../../font/IRANSansWeb-Light.ttf");
+  src: url("../../font/IRANSansWeb-Light.woff");
+  src: url("../../font/IRANSansWeb-Light.woff2");
 }
-:root{
-    --fontfamily: iransansweb;
+:root {
+  --fontfamily: iransansweb;
+}
+.wraper {
+  width: 100%;
 }
