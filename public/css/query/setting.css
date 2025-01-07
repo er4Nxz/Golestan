@@ -25,9 +25,10 @@ hr {
   background-color: #dee1e3;
 }
 .button-more {
-  width: 140px;
-  height: 40px;
+  width: fit-content;
+  height: fit-content;
   margin: 20px 0px;
+  padding: 10px 20px;
   background-color: white;
   border-radius: 7px;
   border: 1px solid lightgray;
@@ -36,7 +37,7 @@ hr {
   a {
     text-align: center;
     display: block;
-    line-height: 40px;
+    line-height: 20px;
     color: var(--color-light-text);
     font-family: var(--fontfamily);
     font-size: 15px;
