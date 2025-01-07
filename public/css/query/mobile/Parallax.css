@@ -1,33 +1,39 @@
-.parallax{
+.parallax {
+  width: 100%;
+  height: 265px;
+  position: relative;
+  img {
+    display: block;
     width: 100%;
-    height: 265px;
-    position: relative;
-    img{
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-position: center;
-        object-fit: cover;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+  }
+  .parallax__Footnote {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+    background-color: var(--text-color-red);
+    h1 {
+      color: white;
+      font-family: var(--fontfamily);
+      font-size: 30px;
+      font-weight: normal;
+      margin: 2px 5px 0px 0px;
     }
-    .parallax__Footnote{
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        height: 30%;
-        background-color: var(--text-color-red);
-        h1{
-            color: white;
-            font-family: var(--fontfamily);
-            font-size: 30px;
-            font-weight: normal;
-            margin: 2px 5px 0px 0px;
-        }
-        p{
-            color: white;
-            font-family: var(--fontfamily);
-            font-size: 16px;
-            font-weight: normal;
-            margin: 0px 5px 0px 0px;
-        }
+    p {
+      color: white;
+      font-family: var(--fontfamily);
+      font-size: 16px;
+      font-weight: normal;
+      margin: 0px 5px 0px 0px;
     }
+  }
+}
+.banner{
+    width: 100%;
+    height: 250px;
+    background-image: url("../../../img/parallax/banner.png");
+    background-position: center;
 }

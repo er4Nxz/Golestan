@@ -12,19 +12,19 @@
 }
 :root {
   --fontfamily: iransansweb;
-  --color-light-text:#7c7d7e;
-  --text-color-red:#ed1c23;
+  --color-light-text: #7c7d7e;
+  --text-color-red: #ed1c23;
 }
 .wraper {
   width: 100%;
 }
-hr{
+hr {
   margin: 0px 10px 20px;
   height: 2px;
   border: none;
   background-color: #dee1e3;
 }
-.button-more{
+.button-more {
   width: 140px;
   height: 40px;
   margin: 20px 0px;
@@ -32,8 +32,8 @@ hr{
   border-radius: 7px;
   border: 1px solid lightgray;
   transition: 300ms;
-  display: inline-block;
-  a{
+  transition-delay: 100ms;
+  a {
     text-align: center;
     display: block;
     line-height: 40px;
@@ -41,9 +41,15 @@ hr{
     font-family: var(--fontfamily);
     font-size: 15px;
     text-decoration: none;
+    transition-delay: 100ms;
   }
   &:hover {
     background-color: red;
-    color: white;
+    a {
+      color: white;
+    }
   }
+}
+.inline-block {
+  display: inline-block;
 }
