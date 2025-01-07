@@ -30,25 +30,6 @@
     line-height: 35px;
     font-size: 16px;
   }
-  .button-more{
-    width: 130px;
-    height: 40px;
-    display: block;
-    margin-top: 20px;
-    text-align: center;
-    line-height: 40px;
-    color: var(--color-light-text);
-    font-size: 15px;
-    text-decoration: none;
-    background-color: white;
-    border-radius: 7px;
-    border: 1px solid lightgray;
-    transition: 300ms;
-    &:hover {
-      background-color: red;
-      color: white;
-    }
-  }
   .Ghore-keshi__img{
     padding-right: 40px;
   }

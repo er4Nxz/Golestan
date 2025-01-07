@@ -13,13 +13,37 @@
 :root {
   --fontfamily: iransansweb;
   --color-light-text:#7c7d7e;
+  --text-color-red:#ed1c23;
 }
 .wraper {
   width: 100%;
 }
 hr{
-  margin: 40px 5px 20px 5px;
+  margin: 0px 10px 20px;
   height: 2px;
   border: none;
   background-color: #dee1e3;
+}
+.button-more{
+  width: 140px;
+  height: 40px;
+  margin: 20px 0px;
+  background-color: white;
+  border-radius: 7px;
+  border: 1px solid lightgray;
+  transition: 300ms;
+  display: inline-block;
+  a{
+    text-align: center;
+    display: block;
+    line-height: 40px;
+    color: var(--color-light-text);
+    font-family: var(--fontfamily);
+    font-size: 15px;
+    text-decoration: none;
+  }
+  &:hover {
+    background-color: red;
+    color: white;
+  }
 }
