@@ -14,12 +14,14 @@
   --fontfamily: iransansweb;
   --color-light-text: #7c7d7e;
   --text-color-red: #ed1c23;
+  --color-pipe-Social-Responsibility:#009da2;
+  --color-Social-Responsibility:#00d8df;
 }
 .wraper {
   width: 100%;
 }
 hr {
-  margin: 0px 10px 20px;
+  margin: 20px 10px;
   height: 2px;
   border: none;
   background-color: #dee1e3;
