@@ -584,9 +584,17 @@ html{
   right: 250px;
 }
 
-.mx-auto {
+.mx-\[auto\] {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mt-\[5\] {
+  margin-top: 5;
+}
+
+.mt-\[50px\] {
+  margin-top: 50px;
 }
 
 .flex {
@@ -602,17 +610,25 @@ html{
   height: fit-content;
 }
 
-.w-\[100\%\] {
-  width: 100%;
+.h-\[100px\] {
+  height: 100px;
 }
 
-.w-\[1600px\] {
-  width: 1600px;
+.w-\[100\%\] {
+  width: 100%;
 }
 
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.w-\[170px\] {
+  width: 170px;
+}
+
+.max-w-\[1600px\] {
+  max-width: 1600px;
 }
 
 .flex-row {
@@ -641,14 +657,21 @@ html{
   background-color: rgb(232 232 232 / var(--tw-bg-opacity, 1));
 }
 
-.bg-slate-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity, 1));
-}
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.p-\[\] {
+  padding: ;
+}
+
+.p-\[1px\] {
+  padding: 1px;
+}
+
+.p-\[10px\] {
+  padding: 10px;
 }
 
 .px-\[20px\] {
@@ -695,13 +718,17 @@ html{
   }
 }
 
-@media (min-width: 1000px) {
-  .desktop\:absolute {
-    position: absolute;
-  }
-
+@media (min-width: 1200px) {
   .desktop\:relative {
     position: relative;
+  }
+
+  .desktop\:mt-\[\] {
+    margin-top: ;
+  }
+
+  .desktop\:mt-\[50px\] {
+    margin-top: 50px;
   }
 
   .desktop\:block {
@@ -714,10 +741,6 @@ html{
 
   .desktop\:h-\[100px\] {
     height: 100px;
-  }
-
-  .desktop\:w-\[160px\] {
-    width: 160px;
   }
 
   .desktop\:items-center {
