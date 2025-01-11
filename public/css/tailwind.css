@@ -6,6 +6,7 @@
     --text-color-nav: #afb2b4;
     --border-color-nav:#afb2b48e;
     --font-family: iransansweb;
+    --text-color-Introduction:#7a7a7a;
   }
   @font-face {
     font-family: iransansweb;
@@ -16,5 +17,8 @@
   }
   html{
     font-family: var(--font-family);
+  }
+  hr{
+    @apply border-none h-[2px] bg-[#0000001c] my-[10px] mx-[5px]
   }
 }
