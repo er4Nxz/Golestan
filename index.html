@@ -20,40 +20,82 @@
   <body>
     <!-- wraper -->
     <div class="w-[100%] bg-[#e8e8e8]">
+      <!-- 1600px  -->
       <div class="max-w-[1600px] mx-[auto]">
         <!-- header  -->
         <header
           class="w-[100%] desktop:h-[100px] bg-[#262626] flex desktop:flex-row mobile:flex-col flex-wrap justify-center items-center"
         >
+          <!-- logo  -->
           <div class="w-[170px] h-[100px]">
             <img
               src="./public/img/header/logo.png"
               class="w-[100%] h-[100%] object-cover desktop:mt-[50px] block"
             />
           </div>
-          <div
-            class="mobile:block desktop:hidden mobile:w-[100%]"
-          >
-          <div class="mobile:block desktop:hidden mobile:w-[30px] mobile:h-[30px] m-[20px]">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#afb2b4">
-              <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-              <path
-                d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"
-              />
-            </svg>
+          <!-- logo  -->
+          <!-- svg -->
+          <div class="mobile:block desktop:hidden mobile:w-[100%]">
+            <div
+              class="mobile:block desktop:hidden mobile:w-[30px] mobile:h-[30px] m-[20px]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                fill="#afb2b4"
+              >
+                <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                <path
+                  d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"
+                />
+              </svg>
+            </div>
           </div>
-          </div>
-          <nav class="w-fit h-fit desktop:block mobile:hidden">
+          <!-- svg -->
+          <!-- nav  -->
+          <nav class="w-fit h-[34px] desktop:block mobile:hidden">
             <a
               href="#"
               class="px-[20px] py-[5px] text-[16px] text-white border-l-[1px] border-[--border-color-nav] desktop:inline-block mobile:hidden"
-              >صفحه اصلی</a
-            >
+              >صفحه اصلی
+            </a>
             <a
               href="#"
-              class="px-[20px] py-[5px] text-[16px] hover:text-white text-[--text-color-nav] transition-all duration-300 border-l-[1px] border-[--border-color-nav] desktop:inline-block mobile:hidden"
-              >شرکت گلستان</a
+              class="px-[20px] py-[5px] text-[16px] border-l-[1px] border-[--border-color-nav] desktop:inline-block mobile:hidden relative group"
             >
+              <span
+                class="hover:text-white text-[--text-color-nav] transition-colors duration-300"
+                >شرکت گلستان</span
+              >
+              <!-- over flow  -->
+              <div
+                class="w-[190px] bg-[#2e2e2e] absolute top-[37px] hidden p-[12px] pr-[23px] group-hover:block"
+              >
+                <ul>
+                  <li
+                    class="pb-[10px] hover:text-white transition-all duration-300 text-[16px] text-[--text-color-nav]"
+                  >
+                    معرفی شرکت
+                  </li>
+                  <li
+                    class="pb-[10px] hover:text-white transition-all duration-300 text-[16px] text-[--text-color-nav]"
+                  >
+                    اخبار
+                  </li>
+                  <li
+                    class="pb-[10px] hover:text-white transition-all duration-300 text-[16px] text-[--text-color-nav]"
+                  >
+                    اطلاعیه ها
+                  </li>
+                  <li
+                    class="hover:text-white transition-all duration-300 text-[16px] text-[--text-color-nav]"
+                  >
+                    تاریخچه
+                  </li>
+                </ul>
+              </div>
+              <!-- over flow  -->
+            </a>
             <a
               href="#"
               class="px-[20px] py-[5px] text-[16px] hover:text-white text-[--text-color-nav] transition-all duration-300 border-l-[1px] border-[--border-color-nav] desktop:inline-block mobile:hidden"
@@ -90,9 +132,11 @@
               >EN</a
             >
           </nav>
+          <!-- nav  -->
         </header>
         <!-- header  -->
       </div>
+      <!-- 1600px  -->
     </div>
     <!-- wraper -->
   </body>
