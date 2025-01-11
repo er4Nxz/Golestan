@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --text-color-nav: #afb2b4;
+    --border-color-nav:#afb2b48e;
+    --font-family: iransansweb;
+  }
+  @font-face {
+    font-family: iransansweb;
+    src: url("../font/IRANSansWeb-Light.eot");
+    src: url("../font/IRANSansWeb-Light.ttf");
+    src: url("../font/IRANSansWeb-Light.woff");
+    src: url("../font/IRANSansWeb-Light.woff2");
+  }
+  html{
+    font-family: var(--font-family);
+  }
+}
