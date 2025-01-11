@@ -630,6 +630,11 @@ hr {
   margin-bottom: 20px;
 }
 
+.my-\[100px\] {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 .mb-\[20px\] {
   margin-bottom: 20px;
 }
@@ -684,6 +689,30 @@ hr {
   width: fit-content;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[800px\] {
+  width: 800px;
+}
+
+.w-\[160px\] {
+  width: 160px;
+}
+
+.w-\[10px\] {
+  width: 10px;
+}
+
+.w-\[185px\] {
+  width: 185px;
+}
+
+.w-\[185\.5px\] {
+  width: 185.5px;
+}
+
 .max-w-\[1600px\] {
   max-width: 1600px;
 }
@@ -712,12 +741,38 @@ hr {
   justify-content: center;
 }
 
+.gap-x-\[\] {
+  -moz-column-gap: ;
+       column-gap: ;
+}
+
+.gap-x-\[20px\] {
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
 .rounded-\[7px\] {
   border-radius: 7px;
 }
 
+.border {
+  border-width: 1px;
+}
+
+.border-\[1px\] {
+  border-width: 1px;
+}
+
 .border-l-\[1px\] {
   border-left-width: 1px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
+.border-b-\[1px\] {
+  border-bottom-width: 1px;
 }
 
 .border-\[\#555657\] {
@@ -727,6 +782,40 @@ hr {
 
 .border-\[--border-color-nav\] {
   border-color: var(--border-color-nav);
+}
+
+.border-\[\] {
+  border-color: ;
+}
+
+.border-\[black\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
+}
+
+.border-\[\#00000048\] {
+  border-color: #00000048;
+}
+
+.border-b-\[\] {
+  border-bottom-color: ;
+}
+
+.border-b-\[black\] {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
+}
+
+.border-b-\[\#00000021\] {
+  border-bottom-color: #00000021;
+}
+
+.border-b-\[\#00000036\] {
+  border-bottom-color: #00000036;
+}
+
+.border-b-\[\#000000c5\] {
+  border-bottom-color: #000000c5;
 }
 
 .bg-\[\#262626\] {
@@ -792,12 +881,36 @@ hr {
   padding-bottom: 5px;
 }
 
+.py-\[32px\] {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.py-\[2px\] {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.py-\[25px\] {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.py-\[256px\] {
+  padding-top: 256px;
+  padding-bottom: 256px;
+}
+
 .pb-\[10px\] {
   padding-bottom: 10px;
 }
 
 .pr-\[23px\] {
   padding-right: 23px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-justify {
@@ -883,6 +996,11 @@ hr {
 
 .text-\[\#\] {
   color: #;
+}
+
+.text-\[\#7c7b7e\] {
+  --tw-text-opacity: 1;
+  color: rgb(124 123 126 / var(--tw-text-opacity, 1));
 }
 
 .transition-all {
@@ -986,6 +1104,10 @@ hr {
 
   .desktop\:inline-block {
     display: inline-block;
+  }
+
+  .desktop\:flex {
+    display: flex;
   }
 
   .desktop\:hidden {
