@@ -584,8 +584,20 @@ html{
   position: relative;
 }
 
-.top-\[37px\] {
-  top: 37px;
+.sticky {
+  position: sticky;
+}
+
+.top-\[36px\] {
+  top: 36px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.z-40 {
+  z-index: 40;
 }
 
 .m-\[20px\] {
@@ -617,9 +629,8 @@ html{
   height: 100px;
 }
 
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
+.h-\[2000px\] {
+  height: 2000px;
 }
 
 .h-\[34px\] {
@@ -657,14 +668,6 @@ html{
 
 .justify-center {
   justify-content: center;
-}
-
-.overflow-hidden {
-  overflow: hidden;
-}
-
-.overflow-scroll {
-  overflow: scroll;
 }
 
 .border-l-\[1px\] {
@@ -742,24 +745,16 @@ html{
   transition-duration: 150ms;
 }
 
-.delay-100 {
-  transition-delay: 100ms;
-}
-
-.delay-200 {
-  transition-delay: 200ms;
-}
-
-.delay-300 {
-  transition-delay: 300ms;
+.duration-200 {
+  transition-duration: 200ms;
 }
 
 .duration-300 {
   transition-duration: 300ms;
 }
 
-.hover\:overflow-visible:hover {
-  overflow: visible;
+.hover\:fill-white:hover {
+  fill: #fff;
 }
 
 .hover\:text-white:hover {
