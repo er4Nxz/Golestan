@@ -780,6 +780,11 @@ hr {
   margin-bottom: 10px;
 }
 
+.mx-\[10px\] {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .mb-\[20px\] {
   margin-bottom: 20px;
 }
@@ -834,6 +839,14 @@ hr {
 
 .mt-\[100px\] {
   margin-top: 100px;
+}
+
+.mt-\[50px\] {
+  margin-top: 50px;
+}
+
+.mt-\[10px\] {
+  margin-top: 10px;
 }
 
 .block {
@@ -1668,6 +1681,26 @@ hr {
   line-height: 35px;
 }
 
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
+.tracking-\[\] {
+  letter-spacing: ;
+}
+
+.tracking-\[2px\] {
+  letter-spacing: 2px;
+}
+
+.tracking-\[3px\] {
+  letter-spacing: 3px;
+}
+
+.tracking-\[4px\] {
+  letter-spacing: 4px;
+}
+
 .text-\[\#58595b\] {
   --tw-text-opacity: 1;
   color: rgb(88 89 91 / var(--tw-text-opacity, 1));
@@ -1745,6 +1778,39 @@ hr {
 .text-\[\#bcb\] {
   --tw-text-opacity: 1;
   color: rgb(187 204 187 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#9f9f9f\] {
+  --tw-text-opacity: 1;
+  color: rgb(159 159 159 / var(--tw-text-opacity, 1));
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.decoration-\[\] {
+  text-decoration-color: ;
+}
+
+.decoration-\[\#9f9f9f\] {
+  text-decoration-color: #9f9f9f;
+}
+
+.underline-offset-1 {
+  text-underline-offset: 1px;
+}
+
+.underline-offset-\[\] {
+  text-underline-offset: ;
+}
+
+.underline-offset-\[5px\] {
+  text-underline-offset: 5px;
+}
+
+.underline-offset-\[10px\] {
+  text-underline-offset: 10px;
 }
 
 .shadow-inner {
