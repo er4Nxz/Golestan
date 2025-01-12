@@ -989,6 +989,18 @@ hr {
   height: 100;
 }
 
+.h-\[55px\] {
+  height: 55px;
+}
+
+.h-\[px\] {
+  height: px;
+}
+
+.h-\[45px\] {
+  height: 45px;
+}
+
 .w-\[100\%\] {
   width: 100%;
 }
@@ -1048,6 +1060,22 @@ hr {
 
 .w-\[395px\] {
   width: 395px;
+}
+
+.w-\[53px\] {
+  width: 53px;
+}
+
+.w-\[px\] {
+  width: px;
+}
+
+.w-\[40px\] {
+  width: 40px;
+}
+
+.w-\[42px\] {
+  width: 42px;
 }
 
 .min-w-\[100\%\] {
@@ -1237,6 +1265,16 @@ hr {
 
 .bg-\[\#009da\] {
   background-color: #009da;
+}
+
+.bg-\[\#f0f0f0\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 240 240 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#8e29d1\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(142 41 209 / var(--tw-bg-opacity, 1));
 }
 
 .bg-gradient-to-t {
@@ -1470,6 +1508,26 @@ hr {
   padding-bottom: 60px;
 }
 
+.py-\[30px\] {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.px-\[\] {
+  padding-left: ;
+  padding-right: ;
+}
+
+.px-\[10px\] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.px-\[30px\] {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .pb-\[10px\] {
   padding-bottom: 10px;
 }
@@ -1665,6 +1723,70 @@ hr {
 
 .hover\:fill-white:hover {
   fill: #fff;
+}
+
+.hover\:fill-\[\]:hover {
+  fill: ;
+}
+
+.hover\:fill-\[\#7d95c9\]:hover {
+  fill: #7d95c9;
+}
+
+.hover\:fill-\[\#bf2e2e\]:hover {
+  fill: #bf2e2e;
+}
+
+.hover\:fill-\[\#\#4da9d6\]:hover {
+  fill: ##4da9d6;
+}
+
+.hover\:fill-\[\#4da9d6\]:hover {
+  fill: #4da9d6;
+}
+
+.hover\:fill-\[\#2ea7db\]:hover {
+  fill: #2ea7db;
+}
+
+.hover\:fill-\[\#D93F21\]:hover {
+  fill: #D93F21;
+}
+
+.hover\:fill-\[\#8e29d1\]:hover {
+  fill: #8e29d1;
+}
+
+.hover\:fill-\[\#d129c3\]:hover {
+  fill: #d129c3;
+}
+
+.hover\:fill-\[\#d1299f\]:hover {
+  fill: #d1299f;
+}
+
+.hover\:fill-\[\#d1299fa9\]:hover {
+  fill: #d1299fa9;
+}
+
+.hover\:fill-\[\#eb22ae\]:hover {
+  fill: #eb22ae;
+}
+
+.hover\:fill-\[\#eb22da\]:hover {
+  fill: #eb22da;
+}
+
+.hover\:fill-\[\#f81ae6\]:hover {
+  fill: #f81ae6;
+}
+
+.hover\:fill-\[\#201e20\]:hover {
+  fill: #201e20;
+}
+
+.hover\:fill-\[\#000000\]:hover {
+  fill: #000000;
 }
 
 .hover\:text-white:hover {
