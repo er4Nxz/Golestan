@@ -707,6 +707,14 @@ hr {
   margin: 0px;
 }
 
+.m-\[\] {
+  margin: ;
+}
+
+.m-\[10px\] {
+  margin: 10px;
+}
+
 .mx-\[auto\] {
   margin-left: auto;
   margin-right: auto;
@@ -1078,6 +1086,18 @@ hr {
   width: 42px;
 }
 
+.w-\[650px\] {
+  width: 650px;
+}
+
+.w-\[150px\] {
+  width: 150px;
+}
+
+.w-\[155px\] {
+  width: 155px;
+}
+
 .min-w-\[100\%\] {
   min-width: 100%;
 }
@@ -1141,6 +1161,18 @@ hr {
   gap: 20px;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
 .gap-x-\[20px\] {
   -moz-column-gap: 20px;
        column-gap: 20px;
@@ -1171,6 +1203,11 @@ hr {
   border-width: 1px;
 }
 
+.border-y-\[1px\] {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+
 .border-b-\[1px\] {
   border-bottom-width: 1px;
 }
@@ -1198,6 +1235,20 @@ hr {
 
 .border-\[\] {
   border-color: ;
+}
+
+.border-\[white\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
+}
+
+.border-\[\#ffffff73\] {
+  border-color: #ffffff73;
+}
+
+.border-y-\[\] {
+  border-top-color: ;
+  border-bottom-color: ;
 }
 
 .bg-\[\#262626\] {
@@ -1275,6 +1326,11 @@ hr {
 .bg-\[\#8e29d1\] {
   --tw-bg-opacity: 1;
   background-color: rgb(142 41 209 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#292929\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(41 41 41 / var(--tw-bg-opacity, 1));
 }
 
 .bg-gradient-to-t {
@@ -1592,6 +1648,10 @@ hr {
   font-size: 18px;
 }
 
+.text-\[13px\] {
+  font-size: 13px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1676,6 +1736,15 @@ hr {
 .text-\[\#bcbec0\] {
   --tw-text-opacity: 1;
   color: rgb(188 190 192 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#\] {
+  color: #;
+}
+
+.text-\[\#bcb\] {
+  --tw-text-opacity: 1;
+  color: rgb(187 204 187 / var(--tw-text-opacity, 1));
 }
 
 .shadow-inner {
@@ -1790,6 +1859,15 @@ hr {
 }
 
 .hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-\[\]:hover {
+  color: ;
+}
+
+.hover\:text-\[white\]:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
@@ -2002,6 +2080,10 @@ hr {
 
   .desktop\:w-\[700px\] {
     width: 700px;
+  }
+
+  .desktop\:w-\[650px\] {
+    width: 650px;
   }
 
   .desktop\:max-w-\[700px\] {
