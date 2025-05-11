@@ -587,6 +587,10 @@ hr {
   background-color: #0000001c;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -607,6 +611,10 @@ hr {
   bottom: 175px;
 }
 
+.left-0 {
+  left: 0px;
+}
+
 .top-0 {
   top: 0px;
 }
@@ -625,6 +633,18 @@ hr {
 
 .z-40 {
   z-index: 40;
+}
+
+.z-\[10\] {
+  z-index: 10;
+}
+
+.z-\[\] {
+  z-index: ;
+}
+
+.-z-40 {
+  z-index: -40;
 }
 
 .m-\[20px\] {
@@ -729,6 +749,10 @@ hr {
   height: 50%;
 }
 
+.h-\[50px\] {
+  height: 50px;
+}
+
 .h-\[600px\] {
   height: 600px;
 }
@@ -772,6 +796,10 @@ hr {
 
 .w-\[42px\] {
   width: 42px;
+}
+
+.w-\[50px\] {
+  width: 50px;
 }
 
 .w-fit {
@@ -830,6 +858,10 @@ hr {
 
 .rounded-\[7px\] {
   border-radius: 7px;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
 .border-\[1px\] {
@@ -931,23 +963,23 @@ hr {
 }
 
 .bg-\[url\(\'\/public\/img\/magazine\/img-1\.png\'\)\] {
-  background-image: url('../img/magazine/img-1.png');
+  background-image: url('/public/img/magazine/img-1.png');
 }
 
 .bg-\[url\(\'\/public\/img\/magazine\/img-2\.png\'\)\] {
-  background-image: url('../img/magazine/img-2.png');
+  background-image: url('/public/img/magazine/img-2.png');
 }
 
 .bg-\[url\(\'\/public\/img\/magazine\/img-3\.png\'\)\] {
-  background-image: url('../img/magazine/img-3.png');
+  background-image: url('/public/img/magazine/img-3.png');
 }
 
 .bg-\[url\(\'\/public\/img\/parallax\/banner\.png\'\)\] {
-  background-image: url('../img/parallax/banner.png');
+  background-image: url('/public/img/parallax/banner.png');
 }
 
 .bg-\[url\(\'\/public\/img\/parallax\/rice\.png\'\)\] {
-  background-image: url("../img/parallax/rice.png");
+  background-image: url('/public/img/parallax/rice.png');
 }
 
 .bg-gradient-to-t {
