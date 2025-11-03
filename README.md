@@ -3,7 +3,6 @@
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=fff)
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=fff)
 ![Animate.css](https://img.shields.io/badge/Animate.css-FF6F91?style=for-the-badge)
-![Responsive Design](https://img.shields.io/badge/Responsive Design-00C7B7?style=for-the-badge)
 ![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)
 
 ---
